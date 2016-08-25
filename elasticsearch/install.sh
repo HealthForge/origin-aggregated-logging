@@ -5,7 +5,7 @@ set -ex
 mkdir -p ${HOME}
 ln -s /usr/share/elasticsearch /usr/share/java/elasticsearch
 
-/usr/share/elasticsearch/bin/plugin -i com.floragunn/search-guard/0.5.1 -url https://github.com/lukas-vlcek/origin-aggregated-logging/releases/download/v0.1/search-guard-0.5.1.zip
+/usr/share/elasticsearch/bin/plugin -i com.floragunn/search-guard/1.7.3.0
 
 /usr/share/elasticsearch/bin/plugin -i io.fabric8.elasticsearch/openshift-elasticsearch-plugin/0.14
 

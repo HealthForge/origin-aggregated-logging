@@ -8,7 +8,7 @@ USER 0
 
 ENV HOME=/opt/app-root/src \
   JAVA_VER=1.8.0 \
-  ES_VER=1.5.2 \
+  ES_VER=1.7.5 \
   ES_CONF=/usr/share/elasticsearch/config/elasticsearch.yml \
   INSTANCE_RAM=512G \
   NODE_QUORUM=1 \
@@ -18,7 +18,7 @@ ENV HOME=/opt/app-root/src \
   PLUGIN_LOGLEVEL=INFO
 
 LABEL io.k8s.description="Elasticsearch container to serve as APIMan backend" \
-  io.k8s.display-name="Elasticsearch 1.5.2" \
+  io.k8s.display-name="Elasticsearch 1.7.5" \
   io.openshift.expose-services="9200:https, 9300:https" \
   io.openshift.tags="apiman,elasticsearch"
 
